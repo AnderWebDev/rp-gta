@@ -1,0 +1,20 @@
+/*header*/
+.menu{background:-webkit-linear-gradient(top right, white, rgb(0, 0, 133) , rgb(2, 0, 56));width: 100%;height: 70px;line-height: 70px;}
+.logo{margin: 0;padding: 0;text-decoration: underline;color:white;font-family: 'Lobster', cursive;font-size: 53px;transition: all 0.3s ease-in-out;text-shadow: 1px 3px 3px black}
+.logo:hover{font-size: 55px}
+.m-left{float: left;padding: 0;margin: 0 15px;}
+.m-link{float: right;font-family: 'Righteous', cursive;color:white;text-decoration: none;padding: 0; margin: 0 10px;font-size: 20px;text-transform: uppercase;border-bottom: 2px solid transparent;transition: all 0.3s ease-in-out;}
+.m-link:hover{border-color: white;font-size: 21px}
+.imagelog{float: left;border-radius: 10px;transition: all 0.1s ease-in-out}
+.imagelog:hover{width: 67px;height: 67px;}
+#rej{color: rgb(199, 193, 255)}
+/*header*/
+.discord{margin:20px;padding: 10px;padding-top:0px;color: white;
+font-size: 25px;font-family:'Righteous';border-width:3px;border-color:white;border-radius: 10px;border-style: solid}
+.lien{color:rgb(177, 178, 250)}
+.contact{font-family: 'Righteous';color:white;font-size:30px;margin:10px;padding: 10px;border:3px solid white;border-radius: 10px}
+@media(min-width:500px) and (max-width: 765px)
+{.m-link{float:left;margin:10px }
+.imagelog{height: 60px;width: 60px;float:left;margin:0px}
+.logo{font-size: 40px}
+.logo:hover{font-size: 45px;}}

@@ -1,0 +1,32 @@
+/*header*/
+.menu{background:-webkit-linear-gradient(top right, white, rgb(0, 0, 133) , rgb(2, 0, 56));width: 100%;height: 70px;line-height: 70px;}
+.logo{margin: 0;padding: 0;text-decoration: underline;color:white;font-family: 'Lobster', cursive;font-size: 53px;transition: all 0.3s ease-in-out;text-shadow: 1px 3px 3px black}
+.logo:hover{font-size: 55px}
+.m-left{float: left;padding: 0;margin: 0 15px;}
+.m-link{float: right;font-family: 'Righteous', cursive;color:white;text-decoration: none;padding: 0; margin: 0 10px;font-size: 20px;text-transform: uppercase;border-bottom: 2px solid transparent;transition: all 0.3s ease-in-out;}
+.m-link:hover{border-color: white;font-size: 21px}
+.imagelog{float: left;border-radius: 10px;transition: all 0.2s ease-in-out}
+.imagelog:hover{width: 68px;height: 68px;}
+#acceuil{color:rgb(199, 193, 255)}
+/*header*/
+.parun{float: left;color:white;font-family: 'Righteous', cursive;width: 700px;margin: 10px;border-width:3px;border-style:solid;border-color:rgb(255, 255, 255);border-radius: 10px;padding: 10px}
+h2{color:white;font-family: 'Lobster', cursive;font-size: 35px;margin:30px}
+.fond{border-radius: 30px;transition:0.3s}
+.fond:hover{width: 51%;height: 51%;box-shadow: 10px 5px 5px rgba(255, 255, 255, 0.479)}
+.titre{text-decoration:underline}
+/*responsive*/
+@media(min-width: 1369px) and (max-width: 1570px)
+{.fond{width: 615px;height:300px;float:left;margin: 0px}
+.fond:hover{width: 620px;height: 305px}}
+@media(min-width:765px) and (max-width: 1368px){.fond{float:left;height: 400px;width: 815px;float:left}
+.fond:hover{height: 405px;width: 820px}}
+@media(min-width:500px) and (max-width: 765px)
+{.m-link{float:left;margin:5px }
+.imagelog{height: 60px;width: 60px;float:left;margin:0px}
+.logo{font-size: 40px}
+.logo:hover{font-size: 45px}
+.parun{width:450px}
+h2{float:left}
+.fond{height: 240px;width: 490px;float:left}
+.fond:hover{height: 245px;width: 495px}}
+/*responsive*/
